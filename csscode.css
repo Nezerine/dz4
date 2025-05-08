@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 200px;
+    background: -webkit-linear-gradient(left, rgb(36, 35, 35) 0% 40%, rgb(253, 183, 96) 85% 100%);
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.header::before {
+    content: "🎞";
+}
+.header::after {
+    content: "🎞";
+}
+h2 {
+    display: block;
+    color: aliceblue;
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.sky{
+    width: 100%;
+    height: 1500px;
+    background-image: url(./space.png);
+    position: relative;
+}
+.blackhole {
+    position: absolute;
+    width:600px;
+    height:600px;
+    margin-top: 450px;
+    margin-left: 660px;
+    border-radius: 50%;
+    background:radial-gradient(circle at center, black 0% 30%, orange 30% 31%, darkorange 31% 32%, red 32% 32.1%, darkorange 33% 40%, yellow 45% 55%, darkorange 60% 67%, black 76% 90%);
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 75px;
+    color:aliceblue;
+}
+.krutoitext {
+    padding-top: 0px;
+    color: aliceblue;
+    font-size: 100px;
+    text-align: center;
+}
+.textsnizu {
+    display: block;
+    color: aliceblue;
+    font-size: 90px;
+    position: absolute;
+    bottom: 100px;
+    left: 392.5px;
+}
+.textsnizu1 {
+    font-weight: bold;
+    display: block;
+    color: aliceblue;
+    font-size: 85px;
+    position: absolute;
+    bottom: 10px;
+    left: 595px;
+}
+div {
+    background-color: rgb(36, 35, 35);
+    width: 100%;
+    height: 100px;
+}
+.knopka1 {
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(65, 64, 64);
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(36,35,35), gray);
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.knopka1:hover {
+    color: gray;
+}
+.knopka2 {
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(65, 64, 64);
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(36,35,35), gray);
+    padding: 20px 10px;
+}
+.knopka2:hover {
+    color: gray;
+}
+.knopka3 {
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(65, 64, 64);
+    border-radius: 10px;
+    width: 280px;
+    height: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(36,35,35), gray);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.knopka3:hover {
+    color: gray;
+}
+.knopka4 {
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(65, 64, 64);
+    border-radius: 10px;
+    width: 280px;
+    height: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(36,35,35), gray);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.knopka4:hover {
+    color: gray;
+}
+footer {
+    width:100%;
+    height: 100px;
+    background-color: rgb(36, 35, 35);
+    border: 3px dashed rgb(253, 183, 96)
+}
+a{
+    display: inline;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px 20px 10px;
+}
+a:hover {
+    color: gray;
+}
+.li {
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 10px;
+}
